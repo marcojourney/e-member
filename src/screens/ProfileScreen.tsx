@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { USER_PROFILE } from '../data/mockData';
+import { PWAInstallButton } from '../components/PWAInstallButton';
 
 export type AppTheme = 'light' | 'dark' | 'system';
 
@@ -252,6 +253,12 @@ export const ProfileScreen: React.FC<ProfileScreenProps> = ({
           <span className="text-emerald-600 dark:text-emerald-400 font-bold">Audited &amp; Synced</span>
         </div>
       </div>
+
+      {/* Install App (PWA) */}
+      <PWAInstallButton
+        variant="card"
+        onInstalled={() => onShowToast('E-Member installed to your home screen!')}
+      />
 
       {/* Action to scan card */}
       <button

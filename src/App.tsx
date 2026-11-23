@@ -12,6 +12,7 @@ import { ScannerModal } from './components/ScannerModal';
 import { PosScreenModal } from './components/PosScreenModal';
 import { PassBarcodeModal } from './components/PassBarcodeModal';
 import { Toast } from './components/Toast';
+import { OfflineIndicator } from './components/OfflineIndicator';
 import { INITIAL_MEMBERSHIPS, INITIAL_RECEIPTS, USER_PROFILE } from './data/mockData';
 import { MembershipCard, Receipt, RewardItem, SuggestedProgram } from './types';
 import { parsePosQrToReceipt } from './utils/posReceiptParser';
@@ -198,6 +199,8 @@ export default function App() {
     <div className="min-h-screen bg-surface text-on-surface flex flex-col font-sans select-none transition-colors duration-200">
       {/* Toast Banner */}
       <Toast message={toastMessage} />
+      {/* Offline Connectivity Indicator */}
+      <OfflineIndicator />
 
       {/* Screen Routing */}
       {currentScreen === 'paper_preview' ? (

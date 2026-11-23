@@ -1,5 +1,6 @@
 import React from 'react';
 import { USER_PROFILE } from '../data/mockData';
+import { PWAInstallButton } from './PWAInstallButton';
 
 interface HeaderProps {
   title: string;
@@ -49,7 +50,8 @@ export const Header: React.FC<HeaderProps> = ({
           </span>
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 shrink-0">
+          <PWAInstallButton variant="header" />
           <button
             aria-label="Notifications and Profile"
             className="relative p-1 rounded-full hover:bg-surface-container-high transition-colors focus:outline-none"
