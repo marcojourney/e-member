@@ -1,0 +1,10 @@
+{
+  "name": "E-Member",
+  "description": "Universal Membership & Digital Receipts wallet with high-fidelity thermal paper receipts, Bakong KHQR settlement, and stamp cards.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

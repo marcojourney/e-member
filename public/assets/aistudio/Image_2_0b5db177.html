@@ -1,0 +1,362 @@
+<!DOCTYPE html><html class="h-full" lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_tab" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@500;600&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{width:100%;min-height:100%;margin:0;padding:0;background-color:#f8f9ff;-webkit-tap-highlight-color:transparent;}body{overscroll-behavior-y:none;font-family:'Plus Jakarta Sans',sans-serif;}.pb-safe{padding-bottom:calc(env(safe-area-inset-bottom,0px) + 5rem);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-primary-container":"#f4fffc","on-tertiary-fixed":"#2f1500","surface":"#f8f9ff","on-secondary":"#ffffff","primary-fixed":"#89f5e7","secondary-container":"#dae2fd","surface-container":"#e5eeff","secondary-fixed":"#dae2fd","background":"#f8f9ff","inverse-primary":"#6bd8cb","secondary-fixed-dim":"#bec6e0","on-tertiary-container":"#fffbff","on-secondary-fixed":"#131b2e","on-surface":"#0b1c30","surface-container-low":"#eff4ff","on-primary-fixed-variant":"#005049","secondary":"#565e74","surface-bright":"#f8f9ff","inverse-surface":"#213145","inverse-on-surface":"#eaf1ff","tertiary-fixed-dim":"#ffb77d","on-error-container":"#93000a","surface-container-high":"#dce9ff","on-secondary-container":"#5c647a","tertiary-container":"#b15f00","tertiary-fixed":"#ffdcc3","on-primary":"#ffffff","primary":"#00685f","surface-container-lowest":"#ffffff","primary-container":"#008378","on-tertiary-fixed-variant":"#6e3900","tertiary":"#8d4b00","on-primary-fixed":"#00201d","surface-variant":"#d3e4fe","outline":"#6d7a77","surface-dim":"#cbdbf5","error-container":"#ffdad6","on-error":"#ffffff","on-background":"#0b1c30","primary-fixed-dim":"#6bd8cb","on-surface-variant":"#3d4947","on-secondary-fixed-variant":"#3f465c","error":"#ba1a1a","surface-tint":"#006a61","on-tertiary":"#ffffff","outline-variant":"#bcc9c6","surface-container-highest":"#d3e4fe"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{margin:"2rem","space-sm":"0.5rem","space-xl":"2.5rem","space-xs":"0.25rem","gutter-mobile":"1rem","margin-mobile":"1rem",gutter:"1.5rem","space-lg":"1.5rem","space-md":"1rem"},fontFamily:{"headline-sm":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"],"display-lg-mobile":["Plus Jakarta Sans"],"mono-receipt-sm":["JetBrains Mono"],"label-sm":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"mono-receipt-lg":["JetBrains Mono"]},fontSize:{"headline-sm":["16px",{lineHeight:"24px",letterSpacing:"-0.005em",fontWeight:"600"}],"headline-md":["20px",{lineHeight:"28px",letterSpacing:"-0.01em",fontWeight:"600"}],"body-md":["14px",{lineHeight:"22px",fontWeight:"400"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.01em",fontWeight:"600"}],"headline-lg-mobile":["24px",{lineHeight:"32px",letterSpacing:"-0.015em",fontWeight:"600"}],"headline-lg":["30px",{lineHeight:"38px",letterSpacing:"-0.02em",fontWeight:"600"}],"display-lg":["48px",{lineHeight:"56px",letterSpacing:"-0.03em",fontWeight:"700"}],"display-lg-mobile":["34px",{lineHeight:"42px",letterSpacing:"-0.02em",fontWeight:"700"}],"mono-receipt-sm":["12px",{lineHeight:"18px",letterSpacing:"0.02em",fontWeight:"500"}],"label-sm":["11px",{lineHeight:"16px",letterSpacing:"0.04em",fontWeight:"600"}],"body-lg":["16px",{lineHeight:"26px",fontWeight:"400"}],"body-sm":["12px",{lineHeight:"18px",fontWeight:"400"}],"mono-receipt-lg":["20px",{lineHeight:"28px",letterSpacing:"-0.02em",fontWeight:"600"}]}}}};</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface antialiased flex flex-col min-h-screen selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(11,28,48,0.04)]"><div class="h-16 px-gutter-mobile flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="I-Member Brand Mark" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1V0u7xWzZsY6aW4-K2XvDduo9dR2mV9pMF7wDaPrqbKvoIFr3AuDQK1qwqEhYqMxVoYVeF7YLaDsqChrBHNtTzA-Cqt95jpEPqU74a7KRtD9_ltMvMcucz83tcLd4dWPkHcAT9haWUkPYhuORpFmQY2NC9xBfXFbq0ECubQxedSA2YnnWWeHLYtmJzYVND470DOBT5_UUeE_nxoZ77Y3w1-1L256ngdsqcOdkCRNG26XMdJdeU0CQyT6g"><div class="flex flex-col"><span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">I-Member</span><span class="font-headline-sm text-headline-sm text-on-surface leading-tight">Home</span></div></div><div class="flex items-center gap-space-sm"><button aria-label="Notifications and Profile" class="relative p-space-xs rounded-full hover:bg-surface-container-high transition-colors focus:outline-none" type="button"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8LMWtNC-YszW536Mc81ctorA6kEI5y59o9ViC2iYugx5CeQ7-4YrsL_O_LG_teoWJO2GU77FHlJeoaGrbbbGWx3yo65qNJfK7C6yKzDzSq_Ir2x0P4Z4DqvSVSHJn_Udap3yZzJWwNzIh4J5kFCALOWdPVIeKEd8DoKUJigR1VFYXy1ErgfB09jTRko6DrjaKAG83rZwRNYj8yMALyiY72ugGHS3_6jyL6ckmdtkgW82SH32qoJWy"><span class="absolute top-0 right-0 w-2.5 h-2.5 bg-tertiary-container rounded-full ring-2 ring-surface"></span></button></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-safe bg-surface"><div class="flex flex-col w-full px-gutter-mobile space-y-space-md">
+<!-- Greeting & Status -->
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface">Good evening, Sophanna</h2>
+<span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-secondary-container text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[15px] text-primary" style="font-variation-settings: 'FILL' 1;">verified</span>
+</span>
+</div>
+<p class="font-body-md text-body-md text-secondary">Universal Membership &amp; Digital Receipts</p>
+</div>
+<div class="flex items-center gap-1.5 bg-surface-container-high px-space-sm py-1 rounded-full shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-primary tracking-wide uppercase">NFC Live</span>
+</div>
+</div>
+<!-- Hero Universal Identity Card -->
+<div class="relative w-full rounded-xl bg-gradient-to-br from-primary via-primary-container to-surface-tint text-on-primary p-space-md shadow-xl overflow-hidden">
+<!-- Security Micro-Pattern & Decorative Waves -->
+<div class="absolute -right-12 -top-12 w-48 h-48 rounded-full bg-on-primary/10 blur-2xl pointer-events-none"></div>
+<div class="absolute inset-0 opacity-10 pointer-events-none" style="background-image: radial-gradient(#ffffff 1px, transparent 1px); background-size: 14px 14px;"></div>
+<!-- Top Meta -->
+<div class="relative z-10 flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-2">
+<div class="w-8 h-6 bg-tertiary-fixed rounded flex items-center justify-center shadow-inner">
+<span class="material-symbols-outlined text-tertiary text-[18px]">memory</span>
+</div>
+<span class="font-label-lg text-label-lg text-on-primary tracking-tight flex items-center gap-1">
+          I-Member Global Identity
+        </span>
+</div>
+<div class="flex items-center gap-1 text-on-primary/80">
+<span class="material-symbols-outlined text-[20px]">contactless</span>
+<span class="font-mono-receipt-sm text-mono-receipt-sm text-primary-fixed">PASS</span>
+</div>
+</div>
+<!-- User & ID Quick Info -->
+<div class="relative z-10 flex items-end justify-between my-2">
+<div>
+<p class="font-label-sm text-label-sm text-primary-fixed uppercase tracking-wider">Member Name</p>
+<p class="font-headline-md text-headline-md text-on-primary">Sophanna M.</p>
+</div>
+<div class="flex items-center gap-1.5 bg-black/20 backdrop-blur-md px-2.5 py-1 rounded-lg">
+<span class="font-mono-receipt-sm text-mono-receipt-sm text-primary-fixed">IM-928381</span>
+<button aria-label="Copy Member ID" class="transition-transform active:scale-95 text-on-primary/90 hover:text-on-primary" onclick="navigator.clipboard &amp;&amp; navigator.clipboard.writeText('IM-928381'); this.classList.add('scale-125'); setTimeout(() =&gt; this.classList.remove('scale-125'), 200);" type="button">
+<span class="material-symbols-outlined text-[16px]">content_copy</span>
+</button>
+</div>
+</div>
+<!-- High-Contrast Scannable QR Surface -->
+<div class="relative z-10 mt-3 p-3.5 bg-surface-container-lowest rounded-xl shadow-md flex flex-col items-center">
+<div class="relative w-44 h-44 p-2 bg-white rounded-lg flex items-center justify-center">
+<!-- SVG QR Presentation -->
+<svg class="w-full h-full text-on-surface" fill="currentColor" viewBox="0 0 160 160">
+<!-- Corner Position Markers -->
+<rect fill="#0b1c30" height="40" rx="4" width="40" x="8" y="8"></rect>
+<rect fill="#ffffff" height="28" rx="2" width="28" x="14" y="14"></rect>
+<rect fill="#00685f" height="16" rx="1" width="16" x="20" y="20"></rect>
+<rect fill="#0b1c30" height="40" rx="4" width="40" x="112" y="8"></rect>
+<rect fill="#ffffff" height="28" rx="2" width="28" x="118" y="14"></rect>
+<rect fill="#00685f" height="16" rx="1" width="16" x="124" y="20"></rect>
+<rect fill="#0b1c30" height="40" rx="4" width="40" x="8" y="112"></rect>
+<rect fill="#ffffff" height="28" rx="2" width="28" x="14" y="118"></rect>
+<rect fill="#00685f" height="16" rx="1" width="16" x="20" y="124"></rect>
+<!-- Synthetic Matrix Elements -->
+<rect fill="#0b1c30" height="10" width="10" x="56" y="12"></rect>
+<rect fill="#0b1c30" height="10" width="10" x="72" y="12"></rect>
+<rect fill="#0b1c30" height="6" width="10" x="88" y="16"></rect>
+<rect fill="#0b1c30" height="8" width="24" x="56" y="28"></rect>
+<rect fill="#0b1c30" height="10" width="14" x="86" y="28"></rect>
+<rect fill="#0b1c30" height="24" width="8" x="12" y="56"></rect>
+<rect fill="#0b1c30" height="8" width="14" x="26" y="60"></rect>
+<rect fill="#0b1c30" height="8" width="28" x="16" y="86"></rect>
+<rect fill="#0b1c30" height="12" width="12" x="56" y="54"></rect>
+<rect fill="#0b1c30" height="10" width="12" x="74" y="52"></rect>
+<rect fill="#0b1c30" height="8" width="14" x="92" y="56"></rect>
+<!-- Center Branding Dot Base -->
+<rect fill="#00685f" height="32" rx="6" width="32" x="64" y="64"></rect>
+<circle cx="80" cy="80" fill="#ffffff" r="7"></circle>
+<circle cx="80" cy="80" fill="#00685f" r="3.5"></circle>
+<rect fill="#0b1c30" height="10" width="16" x="56" y="102"></rect>
+<rect fill="#0b1c30" height="16" width="10" x="78" y="98"></rect>
+<rect fill="#0b1c30" height="8" width="12" x="96" y="104"></rect>
+<rect fill="#0b1c30" height="24" width="8" x="56" y="120"></rect>
+<rect fill="#0b1c30" height="10" width="20" x="70" y="126"></rect>
+<rect fill="#0b1c30" height="20" width="10" x="98" y="122"></rect>
+<rect fill="#0b1c30" height="12" width="16" x="114" y="56"></rect>
+<rect fill="#0b1c30" height="8" width="14" x="136" y="58"></rect>
+<rect fill="#0b1c30" height="8" width="34" x="116" y="74"></rect>
+<rect fill="#0b1c30" height="16" width="12" x="112" y="90"></rect>
+<rect fill="#0b1c30" height="10" width="18" x="132" y="92"></rect>
+<rect fill="#0b1c30" height="26" width="12" x="116" y="116"></rect>
+<rect fill="#0b1c30" height="14" width="16" x="134" y="114"></rect>
+<rect fill="#0b1c30" height="12" width="16" x="134" y="134"></rect>
+</svg>
+<!-- Scanning Ray Subtle Visual -->
+<div class="absolute inset-x-2 top-2 h-0.5 bg-primary opacity-60 rounded-full animate-[pulse_2s_infinite]"></div>
+</div>
+<!-- Explanatory POS Caption -->
+<p class="font-body-sm text-body-sm text-on-surface-variant text-center mt-2.5 max-w-xs leading-tight">
+        Scan at any participating merchant or MarketChain POS to identify, earn points, and receive digital receipts automatically.
+      </p>
+<!-- Switching Utility Pill -->
+<div class="mt-3 inline-flex items-center p-0.5 rounded-full bg-surface-container gap-1">
+<button class="px-3 py-1 rounded-full bg-surface-container-lowest text-primary font-label-sm text-label-sm shadow-sm transition-all" type="button">
+          QR Token
+        </button>
+<button class="px-3 py-1 rounded-full text-secondary hover:text-on-surface font-label-sm text-label-sm flex items-center gap-1 transition-all" type="button">
+<span class="material-symbols-outlined text-[14px]">barcode</span>
+          Barcode
+        </button>
+<div class="flex items-center gap-1 pl-1 pr-2.5 text-on-secondary-container">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary-container animate-ping"></span>
+<span class="font-mono-receipt-sm text-[11px] text-tertiary font-semibold" id="dynamicCodeTimer">0:37s</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Wallet Stats Bar -->
+<div class="w-full bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+<div class="grid grid-cols-3 gap-2 divide-transparent text-center">
+<div class="flex flex-col items-center">
+<span class="font-mono-receipt-lg text-mono-receipt-lg text-primary tracking-tight">1,590</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">Total Points</span>
+<span class="font-body-sm text-[10px] text-secondary">across 3 stores</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-mono-receipt-lg text-mono-receipt-lg text-on-surface tracking-tight">3</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">Active Cards</span>
+<span class="font-body-sm text-[10px] text-secondary">all verified</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-mono-receipt-lg text-mono-receipt-lg text-on-surface tracking-tight">14</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">I-Receipts</span>
+<span class="font-body-sm text-[10px] text-primary font-medium">auto-saved</span>
+</div>
+</div>
+</div>
+<!-- Action Prompts -->
+<div class="grid grid-cols-2 gap-space-sm">
+<button class="flex items-center gap-2.5 p-3 rounded-xl bg-tertiary-fixed text-on-tertiary-fixed shadow-sm active:scale-98 transition-transform text-left" type="button">
+<div class="w-9 h-9 rounded-full bg-surface-container-lowest flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-tertiary text-[20px]">featured_seasonal_and_gifts</span>
+</div>
+<div class="min-w-0">
+<p class="font-label-sm text-label-sm font-bold truncate">Redeem Rewards</p>
+<p class="font-body-sm text-[11px] text-on-tertiary-fixed-variant truncate">2 perks available</p>
+</div>
+</button>
+<button class="flex items-center gap-2.5 p-3 rounded-xl bg-surface-container text-on-surface shadow-sm active:scale-98 transition-transform text-left" type="button">
+<div class="w-9 h-9 rounded-full bg-primary text-on-primary flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[20px]">qr_code_scanner</span>
+</div>
+<div class="min-w-0">
+<p class="font-label-sm text-label-sm font-bold truncate">Scan Merchant</p>
+<p class="font-body-sm text-[11px] text-secondary truncate">Join or Link Card</p>
+</div>
+</button>
+</div>
+<!-- My Memberships Section -->
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-md text-on-surface">My Memberships</h3>
+<a class="font-label-lg text-label-lg text-primary flex items-center gap-0.5 hover:underline" href="#">
+<span class="">View All (3)</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+<!-- Pass Stacks / Cards -->
+<div class="space-y-3">
+<!-- Card 1: Byte Store -->
+<div class="w-full bg-surface-container-lowest rounded-xl p-space-md shadow-sm relative overflow-hidden transition-all active:scale-[0.99]">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-3">
+<div class="w-11 h-11 rounded-lg bg-surface-container flex items-center justify-center overflow-hidden">
+<span class="material-symbols-outlined text-primary text-[24px]">devices</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Byte Store</h4>
+<p class="font-body-sm text-body-sm text-secondary">Tech &amp; Electronics</p>
+</div>
+</div>
+<!-- Gold Pill -->
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px] text-tertiary" style="font-variation-settings: 'FILL' 1;">workspace_premium</span>
+            Gold Member
+          </span>
+</div>
+<div class="mt-4 flex items-baseline justify-between">
+<div>
+<span class="font-mono-receipt-lg text-mono-receipt-lg text-primary">1,240</span>
+<span class="font-body-sm text-body-sm text-secondary ml-1">pts</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-body-sm text-secondary">Total Spend:</span>
+<span class="font-mono-receipt-sm text-mono-receipt-sm text-on-surface font-semibold ml-1">$580.50</span>
+</div>
+</div>
+<!-- Tier Progress -->
+<div class="mt-2.5 space-y-1">
+<div class="w-full h-1.5 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-tertiary-container rounded-full" style="width: 82%;"></div>
+</div>
+<div class="flex justify-between font-label-sm text-[10px] text-secondary">
+<span class="">Current: Gold Tier</span>
+<span class="font-semibold text-tertiary">260 pts to Platinum</span>
+</div>
+</div>
+</div>
+<!-- Card 2: Coffee Corner -->
+<div class="w-full bg-surface-container-lowest rounded-xl p-space-md shadow-sm relative overflow-hidden transition-all active:scale-[0.99]"><div class="flex items-start justify-between">
+<div class="flex items-center gap-3">
+<div class="w-11 h-11 rounded-lg bg-surface-container flex items-center justify-center overflow-hidden">
+<span class="material-symbols-outlined text-tertiary text-[24px]">local_cafe</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Coffee Corner</h4>
+<p class="font-body-sm text-body-sm text-secondary">Specialty Roasters</p>
+</div>
+</div>
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px] text-secondary" style="font-variation-settings: 'FILL' 1;">military_tech</span>
+            Silver Member
+          </span>
+</div>
+<div class="mt-4 flex items-center justify-between">
+<div>
+<span class="font-mono-receipt-lg text-mono-receipt-lg text-on-surface">362</span>
+<span class="font-body-sm text-body-sm text-secondary ml-1">pts</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center text-[12px] font-bold">✓</span>
+<span class="w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center text-[12px] font-bold">✓</span>
+<span class="w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center text-[12px] font-bold">✓</span>
+<span class="w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center text-[12px] font-bold">✓</span>
+<span class="w-6 h-6 rounded-full bg-surface-container text-secondary flex items-center justify-center text-[11px]">☕</span>
+</div>
+</div>
+<p class="font-label-sm text-[11px] text-primary font-medium mt-2 text-right">Free Drink progress: 4/5 stamps</p></div>
+<!-- Card 3: Fit Gym -->
+<div class="w-full bg-surface-container-lowest rounded-xl p-space-md shadow-sm relative overflow-hidden transition-all active:scale-[0.99]">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-11 h-11 rounded-lg bg-surface-container flex items-center justify-center overflow-hidden">
+<span class="material-symbols-outlined text-primary text-[24px]">fitness_center</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Fit Gym</h4>
+<p class="font-body-sm text-body-sm text-secondary">Active Club Membership</p>
+</div>
+</div>
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+            Active
+          </span>
+</div>
+<div class="mt-3 pt-2.5 flex items-center justify-between bg-surface-container-low px-3 py-2 rounded-lg">
+<span class="font-body-sm text-body-sm text-on-surface">8 visits this month</span>
+<div class="flex items-center gap-1 text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">qr_code</span>
+<span class="">Turnstile Pass</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Recent Digital Receipts (I-Receipt Quick Access) -->
+<div class="space-y-space-sm pt-space-xs pb-space-lg">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<h3 class="font-headline-md text-headline-md text-on-surface">Recent Receipts</h3>
+<span class="px-2 py-0.2 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-mono-receipt-sm text-[10px] font-bold">LIVE</span>
+</div>
+<a class="font-label-lg text-label-lg text-primary flex items-center gap-0.5 hover:underline" href="#">
+<span class="">All Receipts</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+<div class="space-y-2.5"><!-- Receipt 1: Coffee Corner (Latest) -->
+<div class="w-full bg-surface-container-lowest rounded-xl p-space-md shadow-sm relative overflow-hidden transition-all hover:bg-surface-container-low">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-tertiary text-[20px]">local_cafe</span>
+</div>
+<div>
+<div class="flex items-center gap-1.5">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Coffee Corner</h4>
+<span class="px-1.5 py-0.2 rounded bg-secondary-container text-on-secondary-fixed font-label-sm text-[10px]">KHQR Paid</span>
+</div>
+<p class="font-body-sm text-body-sm text-secondary">Today, 8:30 AM • 3 items</p>
+</div>
+</div>
+<div class="text-right">
+<p class="font-mono-receipt-lg text-mono-receipt-lg text-on-surface font-semibold">$11.88</p>
+<span class="font-label-sm text-[11px] text-primary font-semibold">+12 Points</span>
+</div>
+</div>
+<div class="mt-3 pt-2.5 flex items-center justify-between">
+<span class="font-mono-receipt-sm text-mono-receipt-sm text-secondary">ID: RCP-2026-0891</span>
+<button class="px-3 py-1 rounded-full bg-surface-container-high text-primary hover:bg-primary hover:text-on-primary font-label-sm text-label-sm transition-colors flex items-center gap-1" type="button">
+<span class="">View Receipt</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Receipt 2: Byte Store -->
+<div class="w-full bg-surface-container-lowest rounded-xl p-space-md shadow-sm relative overflow-hidden transition-all hover:bg-surface-container-low">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[20px]">receipt_long</span>
+</div>
+<div>
+<div class="flex items-center gap-1.5">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Byte Store</h4>
+<span class="px-1.5 py-0.2 rounded bg-secondary-container text-on-secondary-fixed font-label-sm text-[10px]">KHQR Paid</span>
+</div>
+<p class="font-body-sm text-body-sm text-secondary">Yesterday, 10:45 AM • 3 items</p>
+</div>
+</div>
+<div class="text-right">
+<p class="font-mono-receipt-lg text-mono-receipt-lg text-on-surface font-semibold">$22.85</p>
+<span class="font-label-sm text-[11px] text-primary font-semibold">+23 Points</span>
+</div>
+</div>
+<div class="mt-3 pt-2.5 flex items-center justify-between">
+<span class="font-mono-receipt-sm text-mono-receipt-sm text-secondary">ID: RCP-2026-8941</span>
+<button class="px-3 py-1 rounded-full bg-surface-container-high text-primary hover:bg-primary hover:text-on-primary font-label-sm text-label-sm transition-colors flex items-center gap-1" type="button">
+<span class="">View Receipt</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</div></div>
+</div>
+</div>
+<script>
+  // Countdown simulation for dynamic checkout security token
+  (function() {
+    let seconds = 48;
+    const timerElem = document.getElementById('dynamicCodeTimer');
+    if (!timerElem) return;
+
+    setInterval(function() {
+      seconds--;
+      if (seconds < 0) {
+        seconds = 60;
+      }
+      const formatted = seconds < 10 ? '0' + seconds : seconds;
+      timerElem.textContent = '0:' + formatted + 's';
+    }, 1000);
+  })();
+</script></main><nav class="fixed bottom-0 inset-x-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_-4px_20px_rgba(11,28,48,0.06)]" data-active-classes="text-primary font-semibold"><div class="flex justify-between items-center h-20 px-space-xs max-w-md mx-auto"><a aria-current="page" class="flex-1 min-w-[44px] min-h-[44px] flex flex-col items-center justify-center gap-0.5 transition-colors text-primary font-semibold" data-path="home" href="#"><span class="material-symbols-outlined text-[24px]">home</span><span class="font-label-sm text-label-sm leading-none">Home</span></a><a class="flex-1 min-w-[44px] min-h-[44px] flex flex-col items-center justify-center gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="memberships" href="#"><span class="material-symbols-outlined text-[24px]">badge</span><span class="font-label-sm text-label-sm leading-none">Memberships</span></a><a class="flex-1 min-w-[44px] min-h-[44px] flex flex-col items-center justify-center gap-0.5 relative text-on-surface-variant hover:text-on-surface transition-colors" data-path="receipts" href="#"><span class="relative"><span class="material-symbols-outlined text-[24px]">receipt_long</span><span class="absolute -top-1 -right-2 px-1.5 py-0.2 bg-primary text-on-primary font-mono-receipt-sm text-[10px] rounded-full">2</span></span><span class="font-label-sm text-label-sm leading-none">Receipts</span></a><a class="flex-1 min-w-[44px] min-h-[44px] flex flex-col items-center justify-center gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="rewards" href="#"><span class="material-symbols-outlined text-[24px]">featured_seasonal_and_gifts</span><span class="font-label-sm text-label-sm leading-none">Rewards</span></a><a class="flex-1 min-w-[44px] min-h-[44px] flex flex-col items-center justify-center gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="profile" href="#"><span class="material-symbols-outlined text-[24px]">person</span><span class="font-label-sm text-label-sm leading-none">Profile</span></a></div></nav>
+
+</body></html>
