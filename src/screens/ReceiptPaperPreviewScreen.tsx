@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { Receipt } from '../types';
+import { USER_PROFILE } from '../data/mockData';
 
 interface ReceiptPaperPreviewScreenProps {
   receipt: Receipt;
@@ -209,7 +210,7 @@ export const ReceiptPaperPreviewScreen: React.FC<ReceiptPaperPreviewScreenProps>
                   </span>
                 </div>
                 <div className="flex justify-between text-[#333]">
-                  <span>Member: Sophanna M.</span>
+                  <span>Member: {USER_PROFILE.name}</span>
                   <span>ID: {receipt.memberId}</span>
                 </div>
                 <div className="flex justify-between font-bold text-[#111] pt-0.5">
@@ -237,7 +238,7 @@ export const ReceiptPaperPreviewScreen: React.FC<ReceiptPaperPreviewScreenProps>
                   </span>
                 </div>
                 <div className="flex justify-between text-[#333]">
-                  <span>Member: Sophanna M.</span>
+                  <span>Member: {USER_PROFILE.name}</span>
                   <span>ID: EM-928381</span>
                 </div>
                 <div className="flex justify-between font-bold text-[#111] pt-0.5">

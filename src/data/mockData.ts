@@ -1,10 +1,10 @@
 import { MembershipCard, Receipt, RewardItem, SuggestedProgram } from '../types';
 
 export const USER_PROFILE = {
-  name: 'Sophanna M.',
-  greeting: 'Good evening, Sophanna',
+  name: 'Marco Wang',
+  greeting: 'Good evening, Marco',
   memberId: 'EM-928381',
-  avatarUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuB8LMWtNC-YszW536Mc81ctorA6kEI5y59o9ViC2iYugx5CeQ7-4YrsL_O_LG_teoWJO2GU77FHlJeoaGrbbbGWx3yo65qNJfK7C6yKzDzSq_Ir2x0P4Z4DqvSVSHJn_Udap3yZzJWwNzIh4J5kFCALOWdPVIeKEd8DoKUJigR1VFYXy1ErgfB09jTRko6DrjaKAG83rZwRNYj8yMALyiY72ugGHS3_6jyL6ckmdtkgW82SH32qoJWy',
+  avatarUrl: '/assets/aistudio/marco_wang_92b5e020.png',
   brandMarkUrl: '/assets/aistudio/image_71b8ca99.png',
   brandMarkDarkUrl: '/assets/aistudio/image_1becdf09.png',
   totalPoints: 1590,

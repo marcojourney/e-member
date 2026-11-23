@@ -1,5 +1,6 @@
 import React from 'react';
 import { Receipt } from '../types';
+import { USER_PROFILE } from '../data/mockData';
 
 interface ReceiptDetailsScreenProps {
   receipt: Receipt;
@@ -304,7 +305,7 @@ export const ReceiptDetailsScreen: React.FC<ReceiptDetailsScreenProps> = ({
                     <span className="text-[11px] uppercase tracking-wider text-primary font-bold">
                       {receipt.membershipProgramName}
                     </span>
-                    <span className="text-[16px] font-bold text-on-surface">Sophanna M.</span>
+                    <span className="text-[16px] font-bold text-on-surface">{USER_PROFILE.name}</span>
                   </div>
                 </div>
                 <span className="px-2.5 py-0.5 rounded-full bg-secondary-container text-on-secondary-fixed text-[11px] font-bold shadow-xs">

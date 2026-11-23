@@ -28,7 +28,7 @@ export const ProfileScreen: React.FC<ProfileScreenProps> = ({
         <div className="relative">
           <img
             src={USER_PROFILE.avatarUrl}
-            alt="Sophanna M."
+            alt={USER_PROFILE.name}
             className="w-20 h-20 rounded-full object-cover ring-4 ring-primary-fixed shadow-md"
           />
           <span className="absolute bottom-0 right-0 w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-[12px] ring-2 ring-white font-bold">
