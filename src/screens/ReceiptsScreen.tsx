@@ -6,7 +6,6 @@ interface ReceiptsScreenProps {
   onViewReceipt: (id: string) => void;
   onViewPaperPreview: (receipt: Receipt) => void;
   onOpenScanner: () => void;
-  onOpenPosScreen: () => void;
   onShowToast: (msg: string) => void;
 }
 
@@ -15,7 +14,6 @@ export const ReceiptsScreen: React.FC<ReceiptsScreenProps> = ({
   onViewReceipt,
   onViewPaperPreview,
   onOpenScanner,
-  onOpenPosScreen,
   onShowToast,
 }) => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -76,24 +74,14 @@ export const ReceiptsScreen: React.FC<ReceiptsScreenProps> = ({
             </p>
           </div>
         </div>
-        <div className="flex items-center gap-1.5 shrink-0">
-          <button
-            onClick={onOpenPosScreen}
-            className="px-2.5 py-1.5 rounded-xl bg-white/15 hover:bg-white/25 text-white text-[11px] font-semibold transition-colors"
-            type="button"
-            title="Show sample POS checkout screen QR"
-          >
-            POS Demo
-          </button>
-          <button
-            onClick={onOpenScanner}
-            className="px-3 py-1.5 rounded-xl bg-white text-primary hover:bg-primary-fixed font-bold text-[11px] flex items-center gap-1 shadow-xs active:scale-95 transition-all"
-            type="button"
-          >
-            <span className="material-symbols-outlined text-[15px]">photo_camera</span>
-            <span>Scan</span>
-          </button>
-        </div>
+        <button
+          onClick={onOpenScanner}
+          className="px-3.5 py-2 rounded-xl bg-white text-primary hover:bg-primary-fixed font-bold text-[11px] flex items-center gap-1.5 shadow-xs active:scale-95 transition-all shrink-0"
+          type="button"
+        >
+          <span className="material-symbols-outlined text-[15px]">photo_camera</span>
+          <span>Scan</span>
+        </button>
       </div>
 
       {/* Eco Impact KPI Banner */}

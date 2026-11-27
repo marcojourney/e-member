@@ -285,7 +285,6 @@ export default function App() {
                     onViewReceipt={handleOpenReceiptDetails}
                     onViewPaperPreview={(r) => handleOpenPaperPreview(r, 'main')}
                     onOpenScanner={() => setIsScannerOpen(true)}
-                    onOpenPosScreen={() => setIsPosScreenOpen(true)}
                     onShowToast={showToast}
                   />
                 )}
